@@ -1,12 +1,10 @@
 {
-  "name": "node-setup",
+  "name": "dax-payment-handler",
   "version": "1.0.0",
-  "description": "",
+  "description": "Payment handler using flutterwave",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf ./src/dist && babel ./src/. --out-dir ./src/dist --copy-files",
-    "migrate": "sequelize db:migrate --env production",
-    "migrate-dev": "sequelize db:migrate --env development",
     "start": "npm run build && node ./src/dist/index.js",
     "dev": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,9 +28,7 @@
     "express": "^4.17.1",
     "nodemon": "^1.19.3",
     "pg": "^7.12.1",
-    "pg-hstore": "^2.3.3",
-    "sequelize": "^5.19.6",
-    "sequelize-cli": "^5.5.1"
+    "pg-hstore": "^2.3.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",

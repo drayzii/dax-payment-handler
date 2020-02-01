@@ -1,1 +1,1 @@
-# Welcome to Dax Flutterwave Payment Handler
+# Dax Flutterwave Payment Handler

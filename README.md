@@ -1,5 +1,5 @@
-# Dax Flutterwave Payment Handler
-A small payment system built with [Flutterwave](www.flutterwave.com). You can test this in your HTTP client using the demo link hosted on: [https://dax-pay-demo.herokuapp.com](https://dax-pay-demo.herokuapp.com/)
+# Dax Payment Handler
+A small payment system built with the help of [Flutterwave](www.flutterwave.com). You can test this in your HTTP client using the demo link hosted on: [https://dax-pay-demo.herokuapp.com](https://dax-pay-demo.herokuapp.com/)
 
 ## Installation 
 - Clone the application and run `npm install` to install dependencies

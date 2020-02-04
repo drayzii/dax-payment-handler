@@ -12,7 +12,7 @@ export default class FlutterWave {
       const response = await initiatePayment(keys.PUBLIC, encryptedData);
       return response.data.status === 'success'
         ? out(res, 200, 'Payment successful', response.data)
-        : out(res, response.status, 'Payment failed', null, response.data.message);
+        : out(res, response.status, 'Payment failed', null, response.data);
     } catch (err) {
       return out(res, 500, 'Something went wrong!', null, err.message || err);
     }
